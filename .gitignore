@@ -1,0 +1,10 @@
+.DS_Store
+*.iml
+*.class
+target/
+.settings/
+.classpath
+.project
+.idea
+*.versionsBackup
+.nondex
