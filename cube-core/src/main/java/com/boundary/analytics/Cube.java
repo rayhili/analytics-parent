@@ -4,9 +4,7 @@ import java.io.Serializable;
 
 /**
  * 数据立方体
- * - 通过配置文件装载
- * - 也可以通过数据库读取
- * 一条cube 对应一个dimensions的组合
+ * - 一条cube 对应一个dimensions的组合
  *
  * @author ray
  */

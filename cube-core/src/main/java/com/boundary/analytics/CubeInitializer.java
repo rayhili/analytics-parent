@@ -5,6 +5,8 @@ import java.util.Map;
 
 /***
  * dimension 初始化类
+ *   - 通过配置文件装载
+ *   - 也可以通过数据库读取
  * @author ray
  */
 public interface CubeInitializer {
@@ -26,6 +28,13 @@ public interface CubeInitializer {
      * @return
      */
     List<MandatoryDimension> getMandatoryDimensions();
+
+    /**
+     * 所有常规的dimensions，除去其他类型的
+     *
+     * @return
+     */
+    List<Dimension> getNormalDimensions();
 
     /**
      * 获取所有的层次纬度

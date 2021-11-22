@@ -13,6 +13,16 @@ public class DimensionCombination {
      */
     private List<Dimension> dimensions;
 
+
+    public DimensionCombination() {
+
+    }
+
+    public DimensionCombination(List<Dimension> list) {
+        this();
+        this.dimensions = list;
+    }
+
     public List<Dimension> getDimensions() {
         return dimensions;
     }
